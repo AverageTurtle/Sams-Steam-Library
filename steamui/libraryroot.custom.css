@@ -2,18 +2,18 @@
 
 :root { /* Let's define colours based on steamscheme.res */
  
-	--LightGreenBG: #5a6a50 !important;
-	--GreenBG: #4c5844 !important;
-	--DarkGreenBG: #3e4637 !important;
+	--LightPinkBG: #ffc7d4 !important;
+	--PinkBG: #d89aa9 !important;
+	--DarkPinkBG: #5e3640 !important;
 	--BorderBright: #808080 !important;
 	--BorderDark: #282e22 !important;
 	--OffWhite: #d8ded3 !important;
-	--Maize: #c4b550 !important;
-	--MaizeBG: #91863c !important;
-	--Label: #a0aa95 !important;
-	--DimListText: #758666 !important;
-	--DisabledText1: #75806f !important;
-	--DisabledText2: #282e22 !important; }
+	--Maize: #d1c88b !important;
+	--MaizeBG: #c0b14e !important;
+	--Label: #a3a3a3 !important;
+	--DimListText: #909090 !important;
+	--DisabledText1: #828282 !important;
+	--DisabledText2: #393939 !important; }
 
 /* No Bullshit Mode */
 /*
@@ -21,19 +21,19 @@
   display: none !important; }
 
 .appdetailsplaysection_Row_9EHg9 {
-  border: 1px solid var(--LightGreenBG) !important;
+  border: 1px solid var(--LightPinkBG) !important;
   padding: 24px !important; }
 
 .appactivityday_AppActivityDay_S2Fu9 {
   background: transparent !important;
-  border: 1px solid var(--LightGreenBG) !important; }
+  border: 1px solid var(--LightPinkBG) !important; }
 
 .appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI {
-  border: 1px solid var(--LightGreenBG) !important;
+  border: 1px solid var(--LightPinkBG) !important;
   background: transparent !important; }
 
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-  background: var(--DarkGreenBG) !important; }
+  background: var(--DarkPinkBG) !important; }
 
 .appdetailssection_Highlight_38t1m {
   background: transparent !important; }
@@ -48,7 +48,7 @@ body.shared_common_v6_2Lxgd {
 }
 
 button.DialogButton {
-	background: var(--GreenBG) !important;
+	background: var(--PinkBG) !important;
 	color: #fff;
 	font-size: 12px;	
 	box-sizing: border-box;
@@ -77,7 +77,7 @@ button.DialogButton::before {
 
 button.DialogButton:enabled:active,
 button.DialogButton:enabled:active:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -85,14 +85,14 @@ button.DialogButton:enabled:active:hover {
 }
 
 button.DialogButton.Primary {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }	
 
 button.DialogButton.Primary:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -100,7 +100,7 @@ button.DialogButton.Primary:hover {
 
 button.DialogButton.Primary:enabled:active,
 button.DialogButton.Primary:enabled:hover:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -114,8 +114,8 @@ button.DialogButton.Primary:enabled:hover:active {
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
-	background: var(--DarkGreenBG);
+	border-color: var(--LightPinkBG);
+	background: var(--DarkPinkBG);
 	padding: 0px;
 }
 .contextmenu_contextMenuItem_1n7Wl {
@@ -132,7 +132,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .tooltip_TextToolTip_2FxbH {
 	box-sizing: border-box;
 	font-size: 12px;
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	border-radius: 0px;
 	color: #fff;
 	padding: 6px 8px;
@@ -141,13 +141,13 @@ button.DialogButton.Primary:enabled:hover:active {
 	user-select: none;
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
+	border-color: var(--LightPinkBG);
 }
 
 .tooltip_ToolTipCustom_3XGRk {
 	box-sizing: border-box;
 	font-size: 12px;
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	border-radius: 0px;
 	color: #fff;
 	padding: 6px 8px;
@@ -156,7 +156,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	user-select: none;
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
+	border-color: var(--LightPinkBG);
 }
 .tooltip_ToolTipCustom_3XGRk .tooltip_ToolTipTitle_1LhVf {
 	color: #fff;
@@ -297,7 +297,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	color: var(--Label);
 	overflow: hidden;
 }
@@ -312,7 +312,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .DialogContent, .DialogContentTransition {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 
 .DialogCheckbox .SVGIcon_DialogCheck {
@@ -332,22 +332,22 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .DialogTextInputBase, ._DialogInputContainer {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .DialogTextInputBase. ._DialogInputContainer:focus {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .DialogTextInputBase:not(:disabled) {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .DialogTextInputBase:not(:disabled):hover {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .DialogTextInputBase:disabled {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .DialogTextInputBase:disabled:hover {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 
 .DialogDropDown_Arrow {
@@ -357,7 +357,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	fill: var(--Label);
 }
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
-    background: var(--DarkGreenBG);
+    background: var(--DarkPinkBG);
 }
 .dropdown_DialogDropDownMenu_Item_2oAiZ:hover {
     background: var(--MaizeBG);
@@ -371,25 +371,25 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .artworkmodal_ModalBox_1Lfu7 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .artworkmodal_ArtworkModalContainer_bAmL1 {
 	margin-top: 2px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	-webkit-mask-image: none;
 }
 .sharedialog_ShareButton_1FFkd {
     border-style: solid;
 	border-width: 1px;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .sharedialog_ShareButton_1FFkd:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .sharedialog_ShareButton_1FFkd:active {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 
@@ -409,7 +409,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .gamelistbar_GameListHomeAndSearch_2TKEa {
-    background-color: var(--DarkGreenBG);
+    background-color: var(--DarkPinkBG);
 }
 .gamelisthome_Label_3O48L {
 	color: var(--Label);
@@ -424,31 +424,31 @@ button.DialogButton.Primary:enabled:hover:active {
 	fill: White;
 }
 .gamelisthome_Bar_3pSPl .gamelisthome_Icon_1ooRO {
-	fill: var(--LightGreenBG);
+	fill: var(--LightPinkBG);
 	-webkit-mask-image: linear-gradient(to right, rgba(14, 14, 14, 0.2) 0%, black 0%);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx:active {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .gamelisthome_Bar_3pSPl {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelisthome_Bar_3pSPl:active {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV {
@@ -456,10 +456,10 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	border-style: solid;
     border-width: 1px;
-	border-color: var(--LightGreenBG);
+	border-color: var(--LightPinkBG);
 }
 .gamelistdropdown_Bar_1ZS_x {
 	padding: 0px 6px 0px;
@@ -467,22 +467,22 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m:hover {
 	color: #fff;
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:hover {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow:active {
-    background-color: var(--GreenBG);
+    background-color: var(--PinkBG);
     border-style: solid;
     border-width: 1px;
     border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -493,26 +493,26 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: #fff;
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
+	border-color: var(--LightPinkBG);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase {
 	padding-left: 32px;
 	border-radius: 0;
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQVRYhcXWSYhUVxTG8V+LiDYOYAytiwYJRIwSsaMbJ1A0QsABk6AQ0IULF4K9cFg4LAqkRUFF0YAiSCKiiAsVXZgEYnBAIWAgKI0SFXuldkLi0M7SLu7pVCNdVa9emcoHj3Mu7957/u+8Oxz+ZzVAoVCo1G8yWjAGg/AP2vErbuYNXigU9K/QZzxWYAFG9/H+Ko5hPx7mgehX5l0brqG1V/AnuIeX0f4M26RsLH1fAANxDhuifQPrIlgTmsPOwk48wygcwvb3AfATZobfhk9i4t/wFK+lNfAL1mAsTkb/NdhSC0Abpoe/ApvQXWGODizC3mivx5w8AKMV074VB7JOElqFi+EfzAOwOmyH9BV5tCxsM76sBmAiFoe/K2dwuIPT4S+pBmCatLLhhxoAKC7IKdUAfBS2C7drBPgjbDM+zAowMOwjPK8R4Fkvf0hWgMdhP8gyqIKGhX2Dv7ICtIcdgHE1AkwIe0OG+6EH4HwMgK9rBPgm7IUsnXsA7igeHisxOGfw2ZgU/nfVAMC30gJsxJEcwRtxOPxLuFItQBeWhz8fu6sIPlw6hkfiFuZmHfjuZXQUO8JvxY+KKS2leVJl1BLtJsWdUFF9VURr8UK6mD6P55R0TbdLmRqOT7EQU2PcAwyV1s956XR9kAcANuIyNkv3xMJ4SumsVBE14QQ+xs9S0dJZDqBcSXZGSutifC/tlB69wu/YE0G+wJ+4jhlhx0uVVdnjuFJRCsfjaYjJBklH9t8l+t8PqHO9IEpmolwG3lW39E/vlgneo84IWjET1QBUq1IQDfUCKAUxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
 	background-size: 18px 18px;
 	background-repeat: no-repeat;
 	background-position: 10px 12px;
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase:hover {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACfUlEQVRYhcXWSYhUVxTG8V+LiDYOYAytiwYJRIwSsaMbJ1A0QsABk6AQ0IULF4K9cFg4LAqkRUFF0YAiSCKiiAsVXZgEYnBAIWAgKI0SFXuldkLi0M7SLu7pVCNdVa9emcoHj3Mu7957/u+8Oxz+ZzVAoVCo1G8yWjAGg/AP2vErbuYNXigU9K/QZzxWYAFG9/H+Ko5hPx7mgehX5l0brqG1V/AnuIeX0f4M26RsLH1fAANxDhuifQPrIlgTmsPOwk48wygcwvb3AfATZobfhk9i4t/wFK+lNfAL1mAsTkb/NdhSC0Abpoe/ApvQXWGODizC3mivx5w8AKMV074VB7JOElqFi+EfzAOwOmyH9BV5tCxsM76sBmAiFoe/K2dwuIPT4S+pBmCatLLhhxoAKC7IKdUAfBS2C7drBPgjbDM+zAowMOwjPK8R4Fkvf0hWgMdhP8gyqIKGhX2Dv7ICtIcdgHE1AkwIe0OG+6EH4HwMgK9rBPgm7IUsnXsA7igeHisxOGfw2ZgU/nfVAMC30gJsxJEcwRtxOPxLuFItQBeWhz8fu6sIPlw6hkfiFuZmHfjuZXQUO8JvxY+KKS2leVJl1BLtJsWdUFF9VURr8UK6mD6P55R0TbdLmRqOT7EQU2PcAwyV1s956XR9kAcANuIyNkv3xMJ4SumsVBE14QQ+xs9S0dJZDqBcSXZGSutifC/tlB69wu/YE0G+wJ+4jhlhx0uVVdnjuFJRCsfjaYjJBklH9t8l+t8PqHO9IEpmolwG3lW39E/vlgneo84IWjET1QBUq1IQDfUCKAUxop4ApSD+/R31ACgLUS+AviCWkG0b/hcQX2FfnWP3rbdXsIgAtEnQ2wAAAABJRU5ErkJggg==);
 	background-size: 18px 18px;
 	background-repeat: no-repeat;
 	background-position: 10px 12px; }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	color: #fff;
 	border-style: solid;
 	border-width: 1px;
@@ -522,7 +522,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:active {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	color: #fff;
 	border-style: solid;
 	border-width: 1px;
@@ -535,25 +535,25 @@ button.DialogButton.Primary:enabled:hover:active {
 	background-color: transparent;
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Disabled_1Gjk2 {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY.gamelistsearchbar_Extended_31r1_, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY:not(.gamelistsearchbar_Disabled_1Gjk2):hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg {
-	fill: var(--LightGreenBG); }
+	fill: var(--LightPinkBG); }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg g path {
-	fill: var(--LightGreenBG); }
+	fill: var(--LightPinkBG); }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg path, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg line, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg polyline, .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg circle {
-	stroke: var(--LightGreenBG); }
+	stroke: var(--LightPinkBG); }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg {
 	fill: var(--Label); }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd:hover svg g path {
@@ -589,19 +589,19 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV .appfilterpane_FilterBucketBoxes_32e6r {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
+	border-color: var(--LightPinkBG);
 }
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW .appfilterpane_FilterBucket_1axoi .DialogInput_Wrapper .DialogTextInputBase:hover {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .appfilterpane_Container_170Np .appfilterpane_SaveButton_1bqGA {
@@ -622,7 +622,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .DialogCheckbox {
   width: 16px;
   height: 16px;
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkPinkBG);
   box-shadow: inset 1px 0.5px 3px rgba(1, 1, 1, 0.4);
   border-style: solid;
   border-width: 1px;
@@ -632,17 +632,17 @@ button.DialogButton.Primary:enabled:hover:active {
 .DialogCheckbox:hover:not(.Disabled),
 .DialogCheckbox_Container:focus .DialogCheckbox:not(.Disabled),
 .DialogCheckbox:focus:not(.Disabled) {
-  background-color: var(--DarkGreenBG);
+  background-color: var(--DarkPinkBG);
 }
 
 .gamelistsectionheader_Container_2sYIg {
 	color: var(--Maize);
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 .gamelistsectionheader_Container_2sYIg:focus {
 	outline: none; }
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_HoverOverlay_2zGph {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 }
 
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_Selected_sXMOs {
@@ -663,7 +663,7 @@ button.DialogButton.Primary:enabled:hover:active {
 	color: var(--Maize);
 }
 .gamelistsectionheader_Container_2sYIg:hover {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .gamelistsectionheader_SectionHeaderContent_3cV3O:hover .gamelistsectionheader_SectionName_2mZ8L {
@@ -683,7 +683,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .gamelistentry_Container_2-O4Z:hover, .gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy {
 	color: #fff;
-	background-color: var(--DarkGreenBG) !important;
+	background-color: var(--DarkPinkBG) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Synchronizing_1yaIZ {
@@ -755,7 +755,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .gamelistbar_Container_3x1Hk {
     background-image: none;
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 }
 
 .gamelistbar_OneCollectionWarning_2Q95p {
@@ -769,7 +769,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb {
     min-height: 100px;
-	background: var(--GreenBG) !important;
+	background: var(--PinkBG) !important;
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -779,7 +779,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb:hover {
     min-height: 100px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -789,7 +789,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 .library_LeftListSizableContainer_9sPoV ::-webkit-scrollbar-thumb:active {
     min-height: 100px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -799,12 +799,12 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 .library_Container_3xRRJ *::-webkit-scrollbar, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar {
 	width: 18px;
-	background: var(--LightGreenBG);
+	background: var(--LightPinkBG);
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb {
     min-height: 100px;
-	background: var(--GreenBG) !important;
+	background: var(--PinkBG) !important;
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -815,7 +815,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:hover, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:hover {
     min-height: 100px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -826,7 +826,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .library_Container_3xRRJ *::-webkit-scrollbar-thumb:active, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-thumb:active {
     min-height: 100px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
     border: 1px solid;
 	border-radius: 0px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -836,17 +836,17 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .library_LibraryWindowDivider_276E6 {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	min-width: 8px;
 }
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_ {
 	cursor: ew-resize;
 }
 .library_LibraryWindowDivider_276E6.library_Sizable_2g5K_:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 .library_IsResizingLeftList_2ZP8e .library_LibraryWindowDivider_276E6 {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 
 
@@ -872,7 +872,7 @@ button.DialogButton.Primary:enabled:hover:active {
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
 	color: White;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -880,7 +880,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a:active {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -889,7 +889,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a.libraryhomeshowcases_Disabled_1MNhU {
 	color: var(--DisabledText2);
 	text-shadow: 1px 1px var(--DisabledText1);
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -904,7 +904,7 @@ button.DialogButton.Primary:enabled:hover:active {
     font-size: 20px;
     margin-right: 10px;
     padding: 4px 0px 4px 4px;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -918,7 +918,7 @@ button.DialogButton.Primary:enabled:hover:active {
     font-size: 20px;
     margin-right: 10px;
     padding: 4px 4px 4px 0px;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -932,7 +932,7 @@ button.DialogButton.Primary:enabled:hover:active {
     font-size: 20px;
     margin-right: 10px;
     padding: 4px 0px 4px 4px;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -946,7 +946,7 @@ button.DialogButton.Primary:enabled:hover:active {
     font-size: 20px;
     margin-right: 10px;
     padding: 4px 4px 4px 0px;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -955,7 +955,7 @@ button.DialogButton.Primary:enabled:hover:active {
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageLeft_3uMa3.libraryhomeshowcases_Disabled_1MNhU, .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_PageButtons_29NTO .libraryhomeshowcases_PageRight_2kWWy.libraryhomeshowcases_Disabled_1MNhU {
 	opacity: .2;
 	cursor: default;
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -1011,7 +1011,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhome_Container_2gSXC {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
@@ -1023,7 +1023,7 @@ button.DialogButton.Primary:enabled:hover:active {
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 }
 
 .libraryhomeshowcases_CollectionDropDown_1YdRd .libraryhomeshowcases_CountDisplay_2qm05 {
@@ -1053,9 +1053,9 @@ button.DialogButton.Primary:enabled:hover:active {
 	overflow: hidden auto;
 	box-sizing: border-box;
 	padding: 0px;
-	border: 1px solid var(--LightGreenBG);
+	border: 1px solid var(--LightPinkBG);
 	border-radius: 0;
-	background: var(--DarkGreenBG) !important;
+	background: var(--DarkPinkBG) !important;
 	color: #fff;
 	margin-bottom: 0px;
 }
@@ -1068,7 +1068,7 @@ width: 12px;
 	background-image: none;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-thumb:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	background-clip: padding-box;
 }
 .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-track, .libraryhomeshowcases_CollectionDropDownContainer_2Sj4-.libraryhomeshowcases_CollectionDropDownContainer_2Sj4- ._DialogInputContainer::-webkit-scrollbar-button {
@@ -1108,9 +1108,9 @@ width: 12px;
 	box-sizing: border-box;
 	padding: 0px;
 	box-shadow: none !important;
-	border: 0.5px solid var(--LightGreenBG);
+	border: 0.5px solid var(--LightPinkBG);
 	border-radius: 0;
-	background: var(--DarkGreenBG) !important;
+	background: var(--DarkPinkBG) !important;
 	color: #fff;
 }
 .appgrid_SortingDropDownContainer_1ZpBQ .appgrid_SortingDropDownItems_1ZtpS {
@@ -1132,13 +1132,13 @@ width: 12px;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Collapser_3sz4L:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -1165,7 +1165,7 @@ width: 12px;
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
 	color: #fff;
-	background-color: var(--LightGreenBG);
+	background-color: var(--LightPinkBG);
 }
 
 .smartscrollcontainer_ScrollToTopButton_1J21t {
@@ -1177,7 +1177,7 @@ width: 12px;
 }
 
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
@@ -1191,7 +1191,7 @@ width: 12px;
 
 
 .collectionview_OuterContainer_2sNr7 {
-	background: var(--DarkGreenBG); }
+	background: var(--DarkPinkBG); }
 }
 
 .appgrid_AppGridSectionHeader_3bWIS {
@@ -1244,20 +1244,20 @@ width: 12px;
 
 
 .allcollections_ScrollContainer_u1xD3 {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 .allcollections_Collection_3IWn- {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .allcollections_Collection_3IWn-:hover {
-	background: var(--LightGreenBG);
+	background: var(--LightPinkBG);
 }
 .allcollections_Collection_3IWn-.allcollections_DropOption_-D43E {
 	border: 2px dashed var(--BorderBright);
 }
 .allcollections_Collection_3IWn-.allcollections_DropTarget_2AN97 {
 	border: 2px solid var(--BorderBright);
-	background: var(--LightGreenBG);
+	background: var(--LightPinkBG);
 }
 .collectionview_Container_2q70u.collectionview_DropOption_3Buvs {
 	box-sizing: border-box;
@@ -1266,10 +1266,10 @@ width: 12px;
 .collectionview_Container_2q70u.collectionview_DropTarget_dTH3e {
 	box-sizing: border-box;
 	border: 2px solid var(--BorderBright);
-	background: var(--LightGreenBG);
+	background: var(--LightPinkBG);
 }
 .library_MainPanel_3BFcm .library_NewCollectionTarget_3PAPB {
-	background-color: var(--GreenBG) !important;
+	background-color: var(--PinkBG) !important;
 	margin-top: -2px;
 }
 .collectionview_Container_2q70u {
@@ -1308,11 +1308,11 @@ width: 12px;
 
 
 .pagedsettings_PagedSettingsDialog_2sssI {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 0.1px;
@@ -1357,23 +1357,23 @@ width: 12px;
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0 {
 	color: White;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 0.1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_DlcGrid_3sXdO .appproperties_DlcHeader_1SKB0:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz {
 	color: White;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
 	border-width: 0.1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopGrid_2ZL5A .appproperties_WorkshopHeader_2TJyz:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .appproperties_AppProperties_1FyBL .DialogBody .appproperties_WorkshopBottomRow_Rl0De .appproperties_UnsubscribeSelected_1TUEz {
 	color: White;
@@ -1387,23 +1387,23 @@ width: 12px;
 
 
 .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .appdetailsplaysection_MenuButton_3qDWQ {
-	background-color: var(--GreenBG) !important;
+	background-color: var(--PinkBG) !important;
 	border-style: solid;
 	border-width: 0.1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .appdetailsplaysection_MenuButton_3qDWQ:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 0.1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .appdetailsplaysection_MenuButton_3qDWQ:active {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	border-style: solid;
 	border-width: 0.1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -1415,7 +1415,7 @@ width: 12px;
 }
 
 div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBar_3fLo1 {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .library_TopGradient_34Cqr {
@@ -1423,7 +1423,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 }
 
 .library_AppDetailsTransitionGroup_2Dd4T {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .sharedappdetailsheader_ImgSrc_HNbe3.sharedappdetailsheader_ImgBlurBackdrop_3_IUV {
@@ -1442,13 +1442,13 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	color: White;
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v .appdetailsprimarylinkssection_LinksSectionBody_25f0f {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 	padding-left: 0px;
 /*
-	background: var(--GreenBG);  
+	background: var(--PinkBG);  
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -1458,7 +1458,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	margin-right: -11px;
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1471,7 +1471,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Link_1b6LY:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 .appdetailsprimarylinkssection_LinkInner_7k4qm .appdetailsprimarylinkssection_Text_2sNDj {
 	color: White;
@@ -1482,16 +1482,16 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 }
 
 .appactivityday_PartnerEventPlaceholder_23WVg {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 
 .appactivityday_PartnerEventTextOnly_3QRf- {
 	border: none;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .appactivityday_PartnerEventTextOnly_3QRf-:hover {
 	border: none;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .appactivityday_PartnerEventTextOnly_Summary_3ZUP3 {
 	color: var(--Label);
@@ -1527,8 +1527,8 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 
 .appdetailsactivitysection_NoActivity_2-kDc, .appdetailsactivitysection_Loading_3UShz {
 	background: none;
-	color: var(--LightGreenBG);
-	border: 2px dashed var(--LightGreenBG);
+	color: var(--LightPinkBG);
+	border: 2px dashed var(--LightPinkBG);
 }
 .appdetailsactivitysection_ActivityFeedContainer_3yTl3 .appdetailsactivitysection_EndofFeed_3LIds .appdetailsactivitysection_EndRule_1AZdy {
 	background-color: none;
@@ -1540,10 +1540,10 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 }
 
 .appactivityday_PartnerEventLargeImage_Container_Libri {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .appactivityday_PartnerEventLargeImage_Container_Libri:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 
 .appactivityday_PartnerEventMediumImage_Contents_2gv3E {
@@ -1554,7 +1554,7 @@ div.LowPerfMode .appdetailsplaysection_Glassy_3DeO9.appdetailsplaysection_PlayBa
 }
 
 .appactivityday_PartnerEventLargeUpdate_39Zk3 .appactivityday_Event_UVeN0 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	opacity: 1;
 }
 
@@ -1568,7 +1568,7 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 }
 
 .appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1605,7 +1605,7 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	color: var(--Label);
 }
 .appdetailstradingcardssection_Badge_RPcyJ.appdetailstradingcardssection_EmptyCircle_2feGA {
-	border: 2px dashed var(--LightGreenBG);
+	border: 2px dashed var(--LightPinkBG);
 }
 .appdetailstradingcardssection_CardsLeft_2H1Mi {
 	color: var(--Label);
@@ -1642,7 +1642,7 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover, button.DialogB
 	color: var(--Maize);
 }
 .writereview_ReviewTextArea_392iE {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 	border: 1px solid var(--BorderDark) !important;
 }
 
@@ -1670,31 +1670,31 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	background: none;
 }
 .appdetailsoverview_Glassy_2OOzY .appdetailsoverview_ColumnContainer_OhSdL {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 .appdetails_Glassy_3Fmxx.appdetails_ScrollContainer_2l416 {
 	background-image: none;
 }
 .appdetails_ScrollContainer_2l416 {
-	background-color: var(--DarkGreenBG);
+	background-color: var(--DarkPinkBG);
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2 {
 	color: var(--Label);
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
-	background: var(--DarkGreenBG);
+	border-color: var(--LightPinkBG);
+	background: var(--DarkPinkBG);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2:focus {
 	border-style: solid;
 	border-width: 1px;
-	border-color: var(--LightGreenBG);
-	background: var(--DarkGreenBG);
+	border-color: var(--LightPinkBG);
+	background: var(--DarkPinkBG);
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	color: White;
 	box-sizing: border-box;
 	border-style: solid;
@@ -1702,11 +1702,11 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	color: White;
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D button.posttextentry_EmoticonButton_bACIu:active {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	color: White;
 	box-sizing: border-box;
 	border-style: solid;
@@ -1727,14 +1727,14 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA:hover {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA .posttextentry_Label_3jvEk {
@@ -1743,7 +1743,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1751,10 +1751,10 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	transition: none;
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1762,7 +1762,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .appdetailsspotlight_ReviewContainer_3LE-6 {
-	background-color: var(--GreenBG); 
+	background-color: var(--PinkBG); 
 }
 .writereview_RatingContainer_2SAb6 {
 	background-color: transparent;
@@ -1772,28 +1772,28 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	text-transform: uppercase;
 }
 .writereview_ReviewThumbButton_1kCN0 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .writereview_OptionButton_2gJ9F:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .writereview_ReviewThumbButton_1kCN0:not(.writereview_Selected_Z3L6K):hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .writereview_ReviewThumbButton_1kCN0:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: border-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1810,7 +1810,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 
 .spotlightgameplaysummary_SummaryCarouselContainer_wgbDI {
 	height: 170px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	box-sizing: content-box;
 	border-style: solid;
 	border-width: 1px;
@@ -1846,7 +1846,7 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .appactivityday_AppActivityDay_S2Fu9 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 
@@ -1921,11 +1921,11 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 }
 
 .infoicon_MoreInfoIcon_34I5H {
-	background-color: var(--LightGreenBG);
+	background-color: var(--LightPinkBG);
 }
 
 .appdetailscommunityfeed_LoadContentButton_2RSxE {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	color: White;
 	box-sizing: border-box;
 	border-style: solid;
@@ -1933,11 +1933,11 @@ button.appdetailsheader_ExitEditModeButton_i7jBC.appdetailsheader_ExitEditModeBu
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 }
 .appdetailscommunityfeed_LoadContentButton_2RSxE:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	color: White;
 }
 .appdetailscommunityfeed_LoadContentButton_2RSxE:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	color: White;
 	box-sizing: border-box;
 	border-style: solid;
@@ -2013,7 +2013,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	background: transparent;
 }
 .downloadgraph_GraphAndStats_3KDkL {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .downloads_TopBar_SEmVp {
@@ -2078,7 +2078,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	border: none;
 }
 .downloads_Section_3Mbhn.downloads_Active_IbePL {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .downloads_ProgressDetails_sv3ZH {
@@ -2093,7 +2093,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
     border: 1px solid;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	padding-left: 24px;
@@ -2101,7 +2101,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .downloads_DownloadsPage_1bq4x {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 }
 
 .downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
@@ -2126,7 +2126,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .downloads_SectionJumpBar_mw7VZ {
-	background-color: var(--GreenBG);
+	background-color: var(--PinkBG);
 }
 
 
@@ -2140,7 +2140,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .contentmanagement_LibraryContent_ybEU2 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -2167,7 +2167,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 .contentmanagement_InstallFolder_12aBP {
 	padding: 0px 6px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
@@ -2221,7 +2221,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .contentmanagement_IsSelected_3VQeL {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -2231,16 +2231,16 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .contentmanagement_ContentManagement_3wk64 {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 .contentmanagement_InstallFolder_12aBP:hover {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
 }
 .contentmanagement_InstallFolder_12aBP:focus {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) transparent var(--BorderBright);
@@ -2255,14 +2255,14 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 }
 
 .contentmanagement_DriveSettingsButton_1WKUO, .contentmanagement_DriveSettingsButton_1WKUO:hover, .contentmanagement_DriveSettingsButton_1WKUO:focus {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
 	margin-right: -8px;
 }
 .contentmanagement_DriveSettingsButton_1WKUO:active {
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -2278,7 +2278,7 @@ div.MediumWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 	margin-top: 0px;
 }
 .contentmanagement_LibraryContent_ybEU2 .contentmanagement_AppsGrid_2n6FN {
-	background: var(--DarkGreenBG);
+	background: var(--DarkPinkBG);
 	border-style: solid;
     border-width: 1px;
 	border-color: var(--BorderDark) var(--BorderBright) var(--BorderBright) var(--BorderDark);
@@ -2308,14 +2308,14 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 
 ::-webkit-scrollbar {
 	width: 18px;
-	background: var(--GreenBG);
+	background: var(--PinkBG);
 }
 ::-webkit-scrollbar-corner {
 	background: transparent;
 }
 ::-webkit-scrollbar-thumb {
     min-height: 100px;
-	background: var(--GreenBG) !important;
+	background: var(--PinkBG) !important;
     border: 1px solid;
 	border-radius: 0px !important;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -2325,7 +2325,7 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 }
 ::-webkit-scrollbar-thumb:hover {
     min-height: 100px;
-	background: var(--GreenBG) !important;
+	background: var(--PinkBG) !important;
     border: 1px solid;
 	border-radius: 0px !important;
 	border-color: var(--BorderBright) var(--BorderDark) var(--BorderDark) var(--BorderBright);
@@ -2335,5 +2335,5 @@ button.DialogButton:disabled, button.DialogButton:disabled:hover {
 }
 
 .library_Container_3xRRJ *::-webkit-scrollbar-corner, .library_LibraryContextMenu_1UOkn::-webkit-scrollbar-corner {
-	background-color: var(--LightGreenBG);
+	background-color: var(--LightPinkBG);
 }
